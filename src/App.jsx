@@ -9,6 +9,7 @@ import Category1 from "pages/proyectos/CategoryPage1";
 import IndexInscripciones from "pages/inscripciones/Index";
 import IndexUsuarios from "pages/usuarios/Index";
 import IndexAvances from "pages/avances/Index";
+import RegistrarAvance from "pages/avances/RegistrarAvance";
 
 // import PrivateRoute from 'components/PrivateRoute';
 
@@ -32,6 +33,7 @@ function App() {
               <Route path="proyectos/page1" element={<Category1 />} />
               <Route path="inscripciones" element={<IndexInscripciones />} />
               <Route path="avances" element={<IndexAvances />} />
+              <Route path="avances/registrar" element={<RegistrarAvance />} />
             </Route>
           </Routes>
         </BrowserRouter>
