@@ -81,7 +81,7 @@ const ActualizarAvance = () => {
           </select>
         </div>
         <div className="form-general">
-          <button className="btn-general mt-4 text-xl">Registrar</button>
+          <button className="btn-general mt-4 text-xl">Actualizar</button>
         </div>
       </form>
     </div>
