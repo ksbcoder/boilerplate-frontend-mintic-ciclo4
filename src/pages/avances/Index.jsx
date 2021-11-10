@@ -7,7 +7,10 @@ const IndexAvances = () => {
       <div className="text-center mt-20">
         <span className="titulo-general">Avances</span>
       </div>
-      <div className="flex flex-row-reverse flex-nowrap mr-8 mt-5">
+      <div className="flex flex-row-reverse flex-nowrap mr-8 mt-5 gap-2">
+        <Link to="actualizar" className="btn-general">
+          Actualizar Avance
+        </Link>
         <Link to="registrar" className="btn-general">
           Registrar Avance
         </Link>
